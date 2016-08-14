@@ -27,6 +27,7 @@
             android:inputType="phone"
             android:imeOptions="actionDone"
             android:singleLine="true"
+            android:descendantFocusability="afterDescendants"
             app:tDimension="@string/font_size_level2"
             app:tFontName="@string/condensed_font_name"
             />

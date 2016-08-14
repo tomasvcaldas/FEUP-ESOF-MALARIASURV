@@ -27,6 +27,7 @@
             android:textSize="@dimen/input_number_edit_text"
             android:textColor="@color/intColor"
             android:maxLength="2"
+            android:descendantFocusability="afterDescendants"
             app:tDimension="@string/font_size_level2"
             app:tFontName="@string/condensed_font_name"
             />
